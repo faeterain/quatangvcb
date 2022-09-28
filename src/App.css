@@ -32,7 +32,11 @@
   font-weight: bold;
   text-decoration: none;
 }
-
+.eVPPvF, .glyQNg{
+  
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

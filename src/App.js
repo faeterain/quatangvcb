@@ -10,11 +10,12 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import React from 'react';
 import AdbIcon from '@mui/icons-material/Adb';
+import ChapThuan from './pages/ChapThuan';
 
 const pages = [
   {name: 'Trang chủ', url: '/quatangvcb'},
   {name: 'Quy Đổi', url: '/quatangvcb/quydoi'},
-  {name: 'Xác Nhận', url: '/quatangvcb/xacnhan'}
+  // {name: 'Xác Nhận', url: '/quatangvcb/xacnhan'}
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -164,6 +165,7 @@ function App() {
         <Route path='/quatangvcb' element={<Home />} />
         <Route path='/quatangvcb/quydoi' element={<QuyDoi />} />
         <Route path='/quatangvcb/xacnhan' element={<XacNhan />} />
+        <Route path='/quatangvcb/chapthuan' element={<ChapThuan />} />
       </Routes>
       
     </div>
